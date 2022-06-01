@@ -1,0 +1,43 @@
+:root{
+    --main-bg:#e91e63;
+  }
+  
+  body{
+    background-color: rgb(167, 167, 238) !important;
+  }
+  .main-bg {
+    background: var(--main-bg) !important;
+  }
+  
+  input:focus, button:focus {
+    border: 1px solid var(--main-bg) !important;
+    box-shadow: none !important;
+  }
+  
+  .form-check-input:checked {
+    background-color: var(--main-bg) !important;
+    border-color: var(--main-bg) !important;
+  }
+  
+  .card, .btn, input{
+    border-radius:0 !important;
+  }
+  
+
+
+  /* table style */
+  table,tr,td,th{
+      border:2px solid rgb(0, 13, 133) !important;
+      /* box-shadow: 0 0 10px gray !important; */
+      /* color:white !important; */
+  }
+
+  table th{
+      background-color: rgba(0, 0, 139, 0.575) !important;
+      color:white !important;
+  }
+
+  table td{
+      color:darkblue !important;
+      background-color: white !important;
+  }
